@@ -1,0 +1,27 @@
+###############################################################################
+#  "Esc" to return                 How To Play                                #
+#                                   Page 1/4    ->                            #
+#                                                                             #
+#                              Single Player Menu                             #
+#  In Single Player, you have a list of actions that you can choose from, by  #
+#  navigating the menu with W(up) and S(down) and selecting the action with   #
+#  Enter.                                                                     #
+#              example:                                                       #
+#                 Normal_Shot                                                 #
+#              -> Shield_Breaker                                              #
+#                 Flame_Thrower                                               #
+#                                                                             #
+#                                                                             #
+#                               Multi Player Menu                             #
+# In the Multi Player, both players have a list of actions, and a different   #
+# menu from the Single Player. Each action corresponds to a key press, to     #
+# avoid cheating.                                                             #
+#              example:                                                       #
+#              1, Normal_Shot                  S, Normal_Shot                 #
+#              2, Shield_Breaker               D, Shield_Breaker              #
+#              3, Flame_Thrower                F, Flame_Thrower               #
+#                                                                             #
+# When one of the players choose an action, a label "READY!" will replace     #
+# their menu, and they won't be able to change their option.                  #
+#                                                                             #
+###############################################################################

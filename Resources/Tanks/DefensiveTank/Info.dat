@@ -1,0 +1,12 @@
+       Name: The Turtle     * The Turtle is strong in                     
+       Health: 150          defence, but has low                          
+       Attack: 1            attack. It also has increased                 
+       Defence: 4           health.                                       
+       Medikits: 5                                                        
+ /|    Crit Chance: 10%                                   |\              
+/ |    Evade Chance: 10%                                  | \	          
+\ |           ____          Special ability: SuperShield  | /             
+ \|        __[----]===::                                  |/              
+          ||~~~~~~~~~||     The Turtle's shield nullifies                 
+          \\OoOoOoOoO//     damage from normal shots.                     
+                                                                          

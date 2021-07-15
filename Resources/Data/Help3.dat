@@ -1,0 +1,27 @@
+###############################################################################
+#  "Esc" to return                 How To Play                                #
+#                              <-   Page 3/4    ->                            #
+#                                                                             #
+#                                 Basic Actions                               #
+#                                                                             #
+# Normal_Shot                                 Shield                          #
+#                                                \    The Shield protects 50% #
+#  /     Normal Shot generates                   |    of the damage, but      #
+# (<     a damage between 1 and 10               |    gets 2x the damage from #
+#  \     + the attack of the tank                /    Shield Breaker          #
+#                                                                             #
+# Shield_Breaker                               Heal                           #
+#                                                                             #
+# \/     Shield Breaker deals more                 +  Healing heals 25 points #
+# |[<    damage if the enemy's shield is        +     of health, but costs 1  #
+# /\     up. same generation as the normal        +   medikit.                #
+#                                                                             #
+# Flame_Thrower                                Fix                            #
+#                                                                             #
+# /~     The Flame thrower deals                  ~+  Fixing clears all Fire  #
+# ~~~    damage over time damage                ~+    Damage on the player,   #
+# \~     called Fire. Flammenwerfer!               ~+ saving a lot of health  #
+#        (1-3 random)                                                         #
+#                                                                             #
+#                                                                             #
+###############################################################################

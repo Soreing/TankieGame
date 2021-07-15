@@ -1,0 +1,27 @@
+###############################################################################
+#  "Esc" to return                 How To Play                                #
+#                              <-   Page 2/4    ->                            #
+#                                                                             #
+#                                Game Mechanics                               #
+# The goal of the game is to defeat the other tank, by depleting its Health   #
+# This is done through a variety of actions, with different effects           #
+#                                                                             #
+# The Game Screen shows the Name of a tank, its Health, the number of         #
+# Medikits it has, and the amount of Fire damage it suffers each turn         #
+# A picture of the tank is also present below its stats                       #
+#                                                                             #
+#              example:                                                       #
+#                                                                             #
+#     |Name: The_Example                                                      #
+#     |Health: 100                                                            #
+#     |Medikits: 1                                                            #
+#     |Fire: 0                                                                #
+#     |                                                                       #
+#     |    ___                                                                #
+#     | __(   )====::                                                         #
+#     |/~~~~~~~~~\                                                            #
+#     |\O.O.O.O.O/                                                            #
+#                                                                             #
+#                                                                             #
+#                                                                             #
+###############################################################################
