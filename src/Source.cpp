@@ -22,7 +22,7 @@
 const char inputChart[16] = {'1', '2', '3', '4', '5', '6', '7', '8', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K'};
 
 // Display credits information
-void Cretdits()
+void Credits()
 {
 	ShowWholeFile(resPath+"Data/credits.dat"); 
 	
@@ -342,7 +342,9 @@ void SinglePlayer(Player &player)
 
 	// if the user quit the tank selection menu, return to the menu
 	if (abort)
-	{	return;
+	{	if(Tank1 != NULL) delete Tank1;
+		if(Tank2 != NULL) delete Tank2;
+		return;
 	}
 
 	// Reading the graphics from file
@@ -457,6 +459,9 @@ void SinglePlayer(Player &player)
 			Log.push_back(Tank2->EvaluateHP(*Tank1, "Computer"));
 		}
 	}
+
+	delete Tank1;
+	delete Tank2;
 }
 
 // Translate the multiplauer user input from characters to numbers
@@ -491,13 +496,16 @@ void MultiPlayer(Player &player)
 	// Player1 selecting a tank
 	Tank *Tank1 = TankSelect(player, abort, 1, resPath+"Data/P1Header.dat");
 	if (abort)
-	{	return;
+	{	if(Tank1 != NULL) delete Tank1;
+		return;
 	}
 
 	// Player2 selecting a tank
 	Tank *Tank2 = TankSelect(player, abort, 1, resPath+"Data/P2Header.dat");
 	if (abort)
-	{	return;
+	{	if(Tank1 != NULL) delete Tank1;
+		if(Tank2 != NULL) delete Tank2;
+		return;
 	}
 
 	// Setting the maximum action length
@@ -642,6 +650,10 @@ void MultiPlayer(Player &player)
 			Log.push_back(Tank2->EvaluateHP(*Tank1, "Player2"));
 		}
 	}
+
+	delete Tank1;
+	delete Tank2;
+	return;
 }
 
 bool passwordCheck(std::string input, std::string pass)
@@ -707,7 +719,7 @@ void MainMenu()
 				case 3: ProfileStatistics(player); break;
 				case 4: SaveProfile(player); break;
 				case 5: LoadProfile(player); break;
-				case 6: Cretdits(); break;
+				case 6: Credits(); break;
 				case 7: return;
 			}
 		}
